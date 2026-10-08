@@ -52,7 +52,7 @@ const restoredImages={
 function designImage(item,view){return (restoredImages[item.id]?.[view]||item.id+(view==='front'?'':'-'+view)+'.webp')+'?v=restored-20261007';}
 document.querySelector('.hero .line-link').innerHTML='探索七款造型 <span>↗</span>';
 document.querySelector('[data-filter="all"]').textContent='全部造型 / 07';
-document.querySelector('.hero>img').src='mountain-fashion-clean.png';
+document.querySelector('.hero>img').src='preview/mountain-fashion-clean.webp';
 const rail=document.querySelector('#products'),dialog=document.querySelector('#detail');let lastOpener;
 let activeDesign;
 const image=document.querySelector('#detail-image');
@@ -79,11 +79,11 @@ function openDetail(item,opener){
 function updateArrows(){
  rail.querySelectorAll('.product-card').forEach(card=>{
   const item=designs.find(design=>'查看'+design.name===card.getAttribute('aria-label'));
-  if(item&&restoredImages[item.id]?.front){const photo=card.querySelector('img');const src=designImage(item,'front');if(photo.getAttribute('src')!==src)photo.src=src;}
+  if(item&&restoredImages[item.id]?.front){const photo=card.querySelector('img');const originalSrc=designImage(item,'front');const src=originalSrc.split('?')[0].endsWith('.webp')?'preview/'+originalSrc:originalSrc;if(photo.getAttribute('src')!==src)photo.src=src;}
  });
  document.querySelector('.prev').disabled=rail.scrollLeft<2;document.querySelector('.next').disabled=rail.scrollLeft+rail.clientWidth>=rail.scrollWidth-2;
 }
-function filterDesigns(type){rail.replaceChildren();const filtered=designs.filter(item=>type==='all'||item.type===type);filtered.forEach(item=>{const card=document.createElement('button');card.className='product-card';card.setAttribute('aria-label','查看'+item.name);card.innerHTML=`<div class="product-photo"><img src="${item.id==='look3'?'look3-card':item.id}.webp?v=couture-20261002" alt="${item.name}"><span class="product-index">${String(designs.indexOf(item)+1).padStart(2,'0')} / JIACAI</span><span class="product-plus" aria-hidden="true">＋</span></div><div class="product-info"><h3>${item.name}</h3><p>${item.label}</p></div>`;card.addEventListener('click',()=>openDetail(item,card));rail.append(card)});document.querySelectorAll('.filters button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.filter===type)));document.querySelector('#result-count').textContent=String(filtered.length).padStart(2,'0')+' 件作品';rail.scrollLeft=0;requestAnimationFrame(updateArrows)}
+function filterDesigns(type){rail.replaceChildren();const filtered=designs.filter(item=>type==='all'||item.type===type);filtered.forEach(item=>{const card=document.createElement('button');card.className='product-card';card.setAttribute('aria-label','查看'+item.name);card.innerHTML=`<div class="product-photo"><img src="preview/${item.id==='look3'?'look3-card':item.id}.webp?v=couture-20261002" alt="${item.name}"><span class="product-index">${String(designs.indexOf(item)+1).padStart(2,'0')} / JIACAI</span><span class="product-plus" aria-hidden="true">＋</span></div><div class="product-info"><h3>${item.name}</h3><p>${item.label}</p></div>`;card.addEventListener('click',()=>openDetail(item,card));rail.append(card)});document.querySelectorAll('.filters button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.filter===type)));document.querySelector('#result-count').textContent=String(filtered.length).padStart(2,'0')+' 件作品';rail.scrollLeft=0;requestAnimationFrame(updateArrows)}
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>filterDesigns(button.dataset.filter)));
 document.querySelector('.show-all').addEventListener('click',event=>{const button=event.currentTarget;const expanded=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(expanded));button.innerHTML=expanded?'收起陈列 <span>↑</span>':'查看全部 <span>↗</span>';document.querySelector('.rail-wrap').classList.toggle('expanded',expanded);filterDesigns('all')});
 document.querySelectorAll('[data-category]').forEach(link=>link.addEventListener('click',()=>filterDesigns(link.dataset.category)));
