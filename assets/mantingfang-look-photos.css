@@ -1,0 +1,10 @@
+#mfe-looks .mfe-look-grid img {
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
+  mix-blend-mode: normal;
+  background: #e7e7e7;
+}
+
+#mfe-looks .mfe-look-grid button > span {
+  flex-wrap: wrap;
+}

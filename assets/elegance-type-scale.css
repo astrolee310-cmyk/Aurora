@@ -1,0 +1,133 @@
+@font-face{font-family:EleganceXimao;src:url('/Aurora/fonts/EleganceXimao.ttf') format('truetype');font-display:swap;font-weight:400;font-style:normal}
+.el-page{--el-content-gutter:7%}
+.el-page .el-explore-glow{display:inline-grid;margin-top:24px;max-width:100%}
+.el-page .el-explore-glow .border-glow-inner{overflow:visible;border-radius:inherit}
+.el-page .el-explore-glow button{margin:0;border:0;border-radius:44px;background:transparent;padding:14px 24px;min-height:48px;width:100%}
+.el-page .el-explore-glow:focus-within{outline:2px solid #fff8e9;outline-offset:5px}
+.el-page .el-explore-glow button:focus-visible{outline:none}
+@media(max-width:650px){.el-page .el-explore-glow{margin-top:10px}.el-page .el-explore-glow button{padding:10px 18px}}
+.el-page .el-origin,
+.el-page .el-research,
+.el-page .el-lineup,
+.el-page .el-looks,
+.el-page .el-craft,
+.el-page .el-finale{padding-inline:var(--el-content-gutter)}
+.el-page #el-inspiration{margin-inline:0}
+.el-page #el-inspiration>header,
+.el-page #el-silhouette{padding-inline:0}
+.el-page .el-lineup-heading,
+.el-page .el-lineup-footer{margin-inline:0}
+.el-page .el-finale>footer{display:none}
+.el-page .el-ending{background:#f7f4ed;color:#493b30}
+.el-page .el-closing{padding:100px 7% 86px;text-align:center}
+.el-page .el-closing-credit{font:14px/1.7 EleganceParisRose,serif}
+.el-page .el-closing h2{font:400 48px/1.65 var(--el-display);letter-spacing:0;margin:28px 0 12px}
+.el-page .el-closing h2 span{display:block;color:#9a7150}
+.el-page .el-closing-word{font:48px/1.25 EleganceParisRose,serif;color:#9a7150;margin:16px 0 30px}
+.el-page .el-ending button,.el-page .el-ending a{font:16px/1.8 EleganceParisRose,EleganceXimao,KaiTi,serif;color:inherit;letter-spacing:0}
+.el-page .el-ending button{border:0;background:none;padding:6px 0}
+.el-page .el-ending button:hover,.el-page .el-ending a:hover{text-decoration:underline;text-underline-offset:6px}
+.el-page .el-closing>button{border-bottom:1px solid #a89881;padding:10px 8px}
+.el-page .el-ending-footer{padding:56px 7% 0;background:#ebe5d9}
+.el-page .el-ending-columns{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.4fr;gap:32px;padding-bottom:50px}
+.el-page .el-ending-columns>*{min-width:0}
+.el-page .el-ending-identity>p{font:32px/1.5 var(--el-display)}
+.el-page .el-ending small{display:block;font:12px/1.8 EleganceParisRose,serif;margin-top:12px;overflow-wrap:anywhere}
+.el-page .el-ending-identity>span{display:block;margin-top:22px;font:14px/2 EleganceXimao,KaiTi,serif}
+.el-page .el-ending-columns h3{font:20px/1.6 var(--el-display);margin:0 0 18px}
+.el-page .el-ending-columns nav{display:flex;flex-direction:column;align-items:flex-start}
+.el-page .el-ending-contact p{font:14px/2 EleganceXimao,KaiTi,serif}
+.el-page .el-ending-contact a{display:block;text-decoration:none;border-bottom:1px solid #a89881;padding:14px 0;margin-top:10px}
+.el-page .el-ending-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;padding:24px 0;border-top:1px solid #a8988155;font:12px/1.8 EleganceParisRose,EleganceXimao,KaiTi,serif}
+@media(max-width:900px){.el-page .el-ending-columns{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.el-page .el-closing{padding-block:68px}.el-page .el-closing h2{font-size:32px}.el-page .el-closing-word{font-size:32px}.el-page .el-ending-footer{padding-top:36px}.el-page .el-ending-columns{gap:30px 18px}.el-page .el-ending-identity,.el-page .el-ending-contact{grid-column:1/-1}}
+.el-page .el-origin-copy>p:not(.el-kicker),
+.el-page .el-research-copy>p:not(.el-kicker),
+.el-page .el-research-swatches p,
+.el-page #el-silhouette p,
+.el-page .el-look-description p,
+.el-page .el-craft-title>p,
+.el-page .el-step-copy>p:not(.el-kicker),
+.el-page .el-design-description,
+.el-page .el-toile-description,
+.el-page .el-wall-heading>p{font-family:EleganceParisRose,EleganceXimao,KaiTi,'STKaiti',serif!important;font-weight:400;font-synthesis:none}
+.el-page .el-campaign-title>span{font-size:39.1472px;line-height:1.2;letter-spacing:0}
+.el-page .el-kicker,.el-page #el-inspiration .el-kicker{font-size:18px;line-height:1.6;letter-spacing:0;flex-wrap:wrap}
+.el-page .el-campaign-title{max-width:82%}
+.el-page .el-caption>span:last-child,
+.el-page .el-research-section>header>span:last-child{font-family:EleganceParisRose,var(--el-display);font-size:20.5px;line-height:1.5;font-weight:400;font-synthesis:none;letter-spacing:0;text-align:right}
+.el-page .el-campaign-note{font-size:20.2584px}
+.el-page .el-caption,
+.el-page .el-research-section>header>span:first-child,
+.el-page #el-silhouette .el-shape-heading>div>span,
+.el-page .el-lineup-heading>span{font-size:18px;letter-spacing:0;line-height:1.5}
+.el-page .el-origin-grid{position:relative;padding-bottom:130px}
+.el-page .el-origin-grid{grid-template-columns:1.2fr 1fr;column-gap:6%}
+.el-page .el-origin-art{width:100%;min-width:0}
+.el-page .el-origin-art>span{font-size:16px;line-height:1.6;letter-spacing:0}
+.el-page .el-origin-art img{mix-blend-mode:normal}
+.el-page .el-palette{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:0;text-align:center}
+.el-page .el-palette i{margin-inline:auto;width:56px;height:56px}
+.el-page .el-palette button{border:0;background:none;padding:0;display:block;color:inherit;font:inherit;text-align:center;cursor:pointer}
+.el-page .el-palette i{display:block;border-radius:50%;box-shadow:0 0 0 5px #f3eee5,0 0 0 6px #a8988133;transition:transform .25s,box-shadow .25s}
+.el-page .el-palette button:hover i,.el-page .el-palette button.is-selected i{transform:scale(1.14);box-shadow:0 0 0 5px #f3eee5,0 0 0 7px #895329}
+.el-page .el-palette span{display:block;font-size:16px;line-height:1.6;margin-top:15px;letter-spacing:0}
+.el-page .el-pattern-image{display:block;width:100%;aspect-ratio:1369/857;background:var(--pattern-color);-webkit-mask:url('/Aurora/elegance/pattern-psd.png') center/contain no-repeat;mask:url('/Aurora/elegance/pattern-psd.png') center/contain no-repeat;transition:background-color .35s ease}
+.el-page #el-silhouette .el-shape-heading h3{font-size:32px;line-height:1.5}
+.el-page #el-silhouette figcaption{font-size:12px}
+.el-page #el-silhouette .el-shape-notes{margin-top:2px;padding-top:1px}
+.el-page .el-origin-copy>p:not(.el-kicker){font-size:14px}
+.el-page .el-origin-art>span,
+.el-page .el-palette span,
+.el-page #el-silhouette figcaption{font-family:EleganceParisRose,EleganceXimao,KaiTi,'STKaiti',serif!important;font-synthesis:none}
+.el-page #el-inspiration .el-kicker{letter-spacing:.12em}
+.el-page #el-color .el-research-copy{text-align:center}
+.el-page #el-color .el-kicker{justify-content:center}
+.el-page #el-silhouette .el-shape-heading{grid-template-columns:minmax(0,.25fr) minmax(0,.71fr);gap:4%}
+.el-page #el-silhouette .el-shape-heading p{font-size:17px;line-height:2}
+.el-page #el-silhouette .el-shape-notes h3{font-weight:600;font-synthesis:weight}
+.el-page .el-craft-title>p{font-size:14px;text-align:right}
+.el-page .el-toile-description{max-width:none;width:100%}
+.el-page .el-toile-silhouette figcaption,
+.el-page .el-toile-detail figcaption{font-size:12px;gap:8px;flex-wrap:wrap;letter-spacing:0}
+.el-page .el-lineup-heading>p,
+.el-page .el-lineup-footer>span,
+.el-page .el-lineup-footer>a{font-family:EleganceParisRose,EleganceXimao,KaiTi,'STKaiti',serif!important;font-synthesis:none}
+.el-page .el-lineup-footer{font-size:14px;gap:16px;flex-wrap:wrap}
+.el-page .el-lineup-footer>span:first-child{font-size:14px}
+.el-page .el-design-look>p,
+.el-page .el-design-photo-credit,
+.el-page .el-design-flats figcaption{font-family:EleganceParisRose,EleganceXimao,KaiTi,'STKaiti',serif!important;font-weight:400;font-synthesis:none}
+.el-page .el-design-description{font-size:14px;padding-top:8px}
+.el-page .el-design-materials header small,
+.el-page .el-process-tabs small{letter-spacing:.2em}
+.el-page .el-design-materials>.el-design-palette-labels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;text-align:center}
+@media(max-width:800px){.el-page .el-design-materials>.el-design-palette-labels{display:none}}
+.el-page .el-look-side>span{font-size:13px;letter-spacing:0}
+.el-page .el-look-description p{font-size:15px;max-width:none;letter-spacing:0}
+.el-page .el-look-photo figcaption{font-size:12px;gap:12px;flex-wrap:wrap;letter-spacing:0}
+.el-page .el-look-photo figcaption,
+.el-page .el-look-photo figcaption span,
+.el-page .el-finale footer button{font-family:EleganceParisRose,EleganceXimao,KaiTi,'STKaiti',serif!important;font-weight:400;font-synthesis:none}
+.el-page .el-finale-title>span{font-size:18px;line-height:1.6;letter-spacing:0}
+.el-page .el-finale-title{gap:24px;flex-wrap:wrap}
+.el-page .el-footer-mark small{font-size:14px;line-height:1.6;letter-spacing:0}
+.el-page .el-finale footer button{font-size:16px;line-height:1.6;letter-spacing:0}
+@media(min-width:801px){.el-page .el-design-board{align-items:end}}
+@media(max-width:700px){
+ .el-page #el-silhouette .el-shape-heading{grid-template-columns:1fr;gap:20px}
+ .el-page .el-caption>span:last-child,
+ .el-page .el-research-section>header>span:last-child{font-size:17px}
+ .el-page .el-origin-grid{grid-template-columns:1fr}
+ .el-page .el-campaign-title>span{font-size:28px}
+ .el-page .el-caption,
+ .el-page .el-research-section>header>span:first-child,
+ .el-page #el-silhouette .el-shape-heading>div>span,
+ .el-page .el-lineup-heading>span{font-size:14px}
+ .el-page .el-research-section>header{align-items:baseline;flex-wrap:wrap}
+ .el-page #el-silhouette .el-shape-heading h3{font-size:26px}
+ .el-page .el-palette{gap:8px}
+ .el-page .el-palette span{font-size:14px}
+ .el-page .el-palette i{width:44px;height:44px}
+ .el-page .el-origin-grid{padding-bottom:110px}
+}

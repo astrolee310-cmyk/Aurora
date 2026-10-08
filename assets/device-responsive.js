@@ -1,0 +1,5 @@
+const compact=matchMedia('(max-width:900px), (pointer:coarse)');
+let scheduled=false;
+function updateDevice(){scheduled=false;const hint=document.querySelector('.invitation-caption');if(hint){const value=compact.matches?'轻触，进入作品空间':'双击，让隐约成为可见';if(hint.textContent!==value)hint.textContent=value;}const entry=document.querySelector('.enter-word');if(entry)entry.setAttribute('aria-label',compact.matches?'轻触 AURORA LEE 进入':'双击 AURORA LEE 进入');const footer=document.querySelector('.experience.is-entered .experience-footer>div');if(footer&&compact.matches&&footer.firstChild?.nodeType===3)footer.firstChild.textContent='滑动浏览照片，轻触进入作品页';for(const tile of document.querySelectorAll('.series-hit')){if(!tile.querySelector('figcaption')){const c=document.createElement('figcaption');c.className='device-photo-label';c.textContent=tile.getAttribute('aria-label')?.replace(/系列$/,'')||'查看作品';tile.append(c);}}}
+function schedule(){if(!scheduled){scheduled=true;requestAnimationFrame(updateDevice)}}
+new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true});compact.addEventListener('change',schedule);schedule();

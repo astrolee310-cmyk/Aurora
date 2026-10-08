@@ -1,0 +1,42 @@
+/* Clothing shares the jewelry page typography, spacing and gallery system. */
+.clothing-page #detail{width:min(1060px,94vw)}
+.clothing-page .detail-visual{display:flex;flex-direction:column;align-items:center;background:#eeeee8;padding:20px 20px 12px;min-width:0}
+.clothing-page .detail-visual>img{height:clamp(300px,65svh,660px);object-fit:contain;min-height:0}
+.clothing-page .view-switch{display:flex;gap:8px;justify-content:center;margin-top:14px}
+.clothing-page .view-switch button{font-size:11px;letter-spacing:1px;padding:10px 20px;border:1px solid #c9c5b9}
+.clothing-page .view-switch button[aria-pressed=true]{background:#605945;color:#fff;border-color:#605945}
+.clothing-page #view-note{font-size:9px;color:#7d786b;margin-top:10px;min-height:14px}
+.clothing-page .dialog-copy{align-self:stretch;display:flex;flex-direction:column;padding:38px 28px 24px;min-width:0}
+.clothing-page #detail-description{font-size:12px;line-height:2;color:#737469}
+.clothing-page .technical-panel{margin-top:auto;padding-top:25px}
+.clothing-page .technical-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid #dedad0;padding-top:18px}
+.clothing-page .technical-heading h3{font-size:12px;font-weight:400;letter-spacing:1px}
+.clothing-page .technical-heading span{font-size:7px;color:#8c8679;letter-spacing:1px}
+.clothing-page #technical-image{height:clamp(220px,35svh,360px);object-fit:contain;background:#fff;margin-top:14px;width:100%}
+.clothing-page #technical-note{font-size:9px;color:#8c8679;text-align:center;margin-top:8px}
+.clothing-page .detail-back{align-self:flex-start;margin-top:15px}
+@media(max-width:600px){.clothing-page .detail-visual{padding:18px 12px 12px}.clothing-page .detail-visual>img{height:48svh;min-height:250px}.clothing-page .dialog-copy{padding:26px 22px}.clothing-page .technical-panel{margin-top:20px;padding-top:0}.clothing-page #technical-image{height:220px}}
+.clothing-page .hero-copy{position:absolute;background:transparent;padding:0}
+.clothing-page .hero-foot{position:absolute;background:transparent;padding:0;left:3.8%;right:3.8%;bottom:20px}
+.clothing-page .hero:after{display:block}
+.clothing-page .hero{height:690px;min-height:0;background:#eeece5}
+.clothing-page .hero>img{position:absolute;right:0;width:61%;object-position:50% 25%}
+.clothing-page .hero:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#eeece5 30%,#eeece5e6 38%,transparent 58%);pointer-events:none}
+.clothing-page .hero-copy{z-index:1;left:6%;top:27%}
+.clothing-page .hero h1{font-size:clamp(44px,5vw,76px)}
+.clothing-page .hero .serif{font-size:21px}
+.clothing-page .hero-foot{z-index:1}.clothing-page .hero-foot span:last-child{color:#fff}
+.clothing-page .product-photo{aspect-ratio:3/4;background:#eeeee7}
+.clothing-page .product-photo img{object-fit:contain}
+.clothing-page .rail-wrap.expanded .product-rail{grid-template-columns:repeat(3,minmax(0,1fr))}
+.clothing-page .category-grid>a{height:490px}
+.clothing-page .category-grid img{object-position:50% 22%}
+.clothing-page .collection-grid>a{height:740px}
+.clothing-page .collection-grid img{object-position:50% 20%}
+.clothing-page .collection-grid>a:first-child img{object-position:50% 35%}
+.clothing-page .collection-grid>a:nth-child(2) img{object-position:55% center}
+.clothing-page .collection-grid>a:after{background:linear-gradient(transparent 48%,#101511bb)}
+.clothing-page .dialog-grid>img{height: min(740px,85svh);object-fit:contain}
+.clothing-page .detail-strip img:nth-child(2),.clothing-page .detail-strip img:nth-child(4){object-fit:cover;mix-blend-mode:normal}
+@media(max-width:900px){.clothing-page .hero{height:570px}.clothing-page .hero>img{width:67%}.clothing-page .hero .eyebrow{max-width:190px}.clothing-page .hero .serif{font-size:17px}.clothing-page .category-grid>a{height:390px}.clothing-page .collection-grid>a{height:590px}}
+@media(max-width:600px){.clothing-page .hero{height:630px}.clothing-page .hero>img{width:100%;height:100%;object-position:center 15%}.clothing-page .hero:after{background:linear-gradient(0deg,#111b,transparent 65%)}.clothing-page .hero-copy{top:auto;bottom:65px;left:7%;color:#fff}.clothing-page .hero h1{font-size:40px}.clothing-page .hero h1 br{display:block}.clothing-page .hero .serif{color:#f1eee5}.clothing-page .hero-foot{color:#eee}.clothing-page .hero .eyebrow{max-width:none;font-size:7px}.clothing-page .rail-wrap.expanded .product-rail{grid-template-columns:repeat(2,minmax(0,1fr))}.clothing-page .category-grid>a{height:265px}.clothing-page .category-grid h3{font-size:18px}.clothing-page .collection-grid>a{height:400px}.clothing-page .dialog-grid>img{height:52svh}}

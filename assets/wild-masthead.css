@@ -1,0 +1,240 @@
+/* Two chapter links on each side of the masthead. */
+.wg-page .wg-nav-chapters{height:65px;grid-template-columns:minmax(max-content,1fr) auto auto auto minmax(max-content,1fr);grid-template-rows:1fr;column-gap:32px;padding:6px 3%}
+.wg-nav-chapters~section{scroll-margin-top:93px}
+.wg-liquid-flourish .wg-liquid-ornament{display:block;width:100%;height:auto;overflow:visible}
+.wg-page #wg-story .wg-reference-board{display:block;position:relative;width:100%;max-width:1093px;aspect-ratio:auto;margin:0 auto;padding:0}
+.wg-page .wg-reference-board>.wg-image{display:block;width:100%;aspect-ratio:1093/650;padding:0!important;border:0;border-radius:0;background:#000;overflow:hidden}
+.wg-page .wg-reference-board>.wg-image img{width:100%;height:100%;object-fit:contain;border-radius:0;filter:none;mix-blend-mode:normal}
+/* A layered inspiration board, using the original series photographs. */
+.wg-page #wg-story .wg-inspiration-board{display:block;position:relative;width:100%;max-width:960px;aspect-ratio:1.5;margin:0 auto 110px;padding:0;isolation:isolate}
+.wg-inspiration-board>.wg-board-fragment{position:absolute;margin:0;overflow:hidden;box-shadow:0 8px 20px #00000055;border:1px solid #ffffff30}
+.wg-board-fragment img{height:100%;object-fit:cover}
+.wg-inspiration-board .wg-board-texture{left:0;top:18%;width:28%;height:38%;transform:rotate(-5deg);z-index:0}
+.wg-inspiration-board .wg-board-silhouette{left:58%;top:0;width:31%;height:33%;transform:rotate(3deg);z-index:1;background:#bbb}
+.wg-inspiration-board .wg-board-silhouette img{object-fit:contain}
+.wg-inspiration-board .wg-board-profile{left:5%;top:61%;width:28%;height:31%;transform:rotate(2deg);z-index:3;background:#bbb}
+.wg-inspiration-board .wg-board-profile img{object-fit:contain}
+.wg-inspiration-board .wg-board-hardware{left:43%;top:74%;width:25%;height:23%;transform:rotate(-4deg);z-index:4}
+.wg-page .wg-inspiration-board .wg-model{position:absolute;left:20%;top:6%;width:36%;height:66%;z-index:2;margin:0}
+.wg-inspiration-board .wg-model:before{display:none}
+.wg-page .wg-inspiration-board .wg-model .wg-image{height:100%;aspect-ratio:auto;padding:0!important;border:1px solid #ffffff30;border-radius:0;background:#111}
+.wg-inspiration-board .wg-model img{height:100%;object-fit:cover;border-radius:0}
+.wg-inspiration-board .wg-model figcaption{display:flex;flex-direction:column;align-items:flex-end;text-align:right;margin:0;position:absolute;right:12px;bottom:12px;z-index:5;gap:4px}
+.wg-page .wg-inspiration-board .wg-editorial-side{display:contents;padding:0}
+.wg-page .wg-inspiration-board .wg-editorial-side>figure{position:absolute;left:65%;top:34%;width:30%;height:45%;z-index:3;transform:rotate(-3deg);margin:0}
+.wg-page .wg-inspiration-board .wg-editorial-side>figure .wg-image{height:100%;aspect-ratio:auto;outline:none;padding:0!important;border:1px solid #ffffff30;background:#111}
+.wg-inspiration-board .wg-editorial-side>figure img{height:100%;object-fit:cover}
+.wg-inspiration-board .wg-editorial-side>figure figcaption{margin-top:12px;gap:8px}
+.wg-page .wg-inspiration-board .wg-quote{position:absolute;left:25%;top:103%;width:50%;padding:0;text-align:center;z-index:5}
+.wg-inspiration-board .wg-quote .wg-star{display:none}
+.wg-inspiration-board .wg-quote p{font-size:20px;line-height:1.55}
+.wg-inspiration-board .wg-quote small{display:block;font-size:6px;line-height:1.8;letter-spacing:0;margin-top:8px}
+@media(max-width:600px){
+ .wg-page #wg-story .wg-inspiration-board{aspect-ratio:.86}
+ .wg-page .wg-inspiration-board .wg-model{left:17%;top:7%;width:48%;height:48%}
+ .wg-inspiration-board .wg-board-texture{top:21%;width:33%;height:27%}
+ .wg-inspiration-board .wg-board-silhouette{left:57%;width:39%;height:23%}
+ .wg-inspiration-board .wg-board-profile{left:0;top:62%;width:34%;height:26%}
+ .wg-inspiration-board .wg-board-hardware{left:31%;top:76%;width:31%;height:19%}
+ .wg-page .wg-inspiration-board .wg-editorial-side>figure{left:60%;top:40%;width:38%;height:28%}
+ .wg-inspiration-board .wg-model figcaption,.wg-inspiration-board .wg-editorial-side>figure figcaption{display:flex;flex-direction:column;align-items:flex-start;font-size:9px;margin-top:8px;gap:4px}
+ .wg-inspiration-board figcaption small{display:block!important;font-size:5px}
+ .wg-inspiration-board .wg-model figcaption{left:12px;right:auto;text-align:left}
+ .wg-page .wg-inspiration-board .wg-quote{left:20%;top:103%;width:60%}
+ .wg-inspiration-board .wg-quote p{font-size:15px;line-height:1.6}
+ .wg-inspiration-board .wg-quote small{font-size:5px;margin-top:5px}
+}
+.wg-closing>.wg-liquid-flourish-bottom{width:min(440px,100%);margin:24px auto 0}
+.wg-nav-chapters .wg-author{align-self:center;font-size:20px;letter-spacing:0}
+.wg-nav-chapters .wg-brand{grid-column:3;grid-row:1;font-size:28px!important}
+.wg-nav-chapters .wg-nav-actions{grid-column:5;align-self:center}
+.wg-page .wg-nav-chapters .wg-header-chapters{grid-row:1;display:flex;align-items:center;gap:28px;min-width:0;white-space:nowrap;font-size:12px}
+.wg-page .wg-nav-chapters .wg-header-chapters-left{grid-column:2;justify-content:flex-start}
+.wg-page .wg-nav-chapters .wg-header-chapters-right{grid-column:4;justify-content:flex-end}
+.wg-page .wg-nav-chapters .wg-header-chapters button{display:flex;align-items:baseline;gap:4px;padding:8px 0;color:#bdbdbd;font-size:inherit}
+.wg-header-chapters button span{font:12px/1.5 WildSong,serif}
+.wg-header-chapters button i{font:9px/1 Arial,sans-serif;color:#777}
+.wg-header-chapters button small{font:8px/1.5 Arial,sans-serif;letter-spacing:0}
+.wg-page .wg-nav-chapters .wg-header-chapters button:hover{color:#fff}
+@media(max-width:1000px){
+ .wg-page .wg-nav-chapters{column-gap:14px;padding-left:2.5%;padding-right:2.5%}
+ .wg-page .wg-nav-chapters .wg-header-chapters{gap:22px}
+ .wg-page .wg-nav-chapters .wg-header-chapters button{display:flex}
+ .wg-header-chapters button span{font-size:12px}
+ .wg-header-chapters button small{font-size:7px}
+}
+@media(max-width:900px){
+ .wg-page .wg-nav-chapters{height:100px;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);grid-template-rows:1fr 1fr}
+ .wg-nav-chapters~section{scroll-margin-top:128px}
+ .wg-nav-chapters .wg-brand{grid-column:2;grid-row:1 / 3}
+ .wg-nav-chapters .wg-nav-actions{grid-column:3}
+ .wg-page .wg-nav-chapters .wg-header-chapters{grid-row:2}
+ .wg-page .wg-nav-chapters .wg-header-chapters-left{grid-column:1}
+ .wg-page .wg-nav-chapters .wg-header-chapters-right{grid-column:3}
+}
+@media(max-width:700px){
+ .wg-page .wg-nav-chapters{height:126px;column-gap:12px;grid-template-columns:minmax(0,1fr) 100px minmax(0,1fr);grid-template-rows:32px 1fr}
+ .wg-nav-chapters .wg-brand{font-size:22px!important}
+ .wg-page .wg-nav-chapters .wg-header-chapters{flex-direction:column;align-items:flex-start;gap:10px}
+ .wg-page .wg-nav-chapters .wg-header-chapters-right{align-items:flex-end}
+ .wg-page .wg-nav-chapters .wg-header-chapters button{padding:4px 0;gap:3px}
+ .wg-nav-chapters .wg-author{font-size:14px}
+ .wg-header-chapters button span{font-size:9px}
+ .wg-header-chapters button small{font-size:7px}
+ .wg-nav-chapters~section{scroll-margin-top:150px}
+}
+@media(max-width:380px){
+ .wg-page .wg-nav-chapters{grid-template-columns:minmax(0,1fr) 90px minmax(0,1fr)}
+ .wg-nav-chapters .wg-author{font-size:12px}
+}
+.wg-page .wg-hero-copy>h2{font-size:43px;margin-top:12px;margin-bottom:0}
+.wg-page .wg-hero-copy>p.wg-hero-poem{font-size:23px}
+.wg-page .wg-hero-bottom{display:grid;grid-template-columns:minmax(0,1fr) 14px minmax(0,1fr);gap:20px;font-size:8px}
+.wg-page .wg-hero-bottom>span:first-child,.wg-page .wg-hero-bottom>span:last-child{font-size:8px;line-height:1.6}
+.wg-page .wg-hero-bottom>span:last-child{text-align:right}
+.wg-page .wg-hero-bottom>.wg-star{justify-self:center}
+.wg-page .wg-subtitle,.wg-page .wg-story-heading>p{font-size:25px}
+.wg-page .wg-reference-board>.wg-story-note{position:absolute;inset:0 0 auto;z-index:3;display:block;width:100%;box-sizing:border-box;margin:0;padding:20px 24px 28px;text-align:center;font-size:25px;line-height:2.2;color:#ddd;background:linear-gradient(#000d,#0008,transparent);text-shadow:0 2px 6px #000;pointer-events:none}
+@media(max-width:600px){
+ .wg-page .wg-hero-copy>h2{font-size:32px}
+ .wg-page .wg-hero-copy>p.wg-hero-poem{font-size:20px;line-height:1.8}
+ .wg-page .wg-subtitle,.wg-page .wg-story-heading>p{font-size:20px}
+ .wg-page .wg-reference-board>.wg-story-note{font-size:16px;line-height:1.6;padding:10px 12px 16px;letter-spacing:0}
+ .wg-page .wg-hero-bottom{gap:12px}
+ .wg-page .wg-hero-bottom>span:first-child,.wg-page .wg-hero-bottom>span:last-child{max-width:none}
+}
+@font-face{font-family:WildBlackChancery;src:url('/Aurora/fonts/WildBlackChancery.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+.wg-page .wg-nav-chapters .wg-header-chapters button small{font-family:WildBlackChancery,Georgia,serif}
+@media(min-width:901px){
+ .wg-page .wg-nav-chapters{grid-template-columns:max-content minmax(max-content,1fr) auto minmax(max-content,1fr) max-content}
+ .wg-page .wg-nav-chapters .wg-header-chapters-left{justify-content:space-evenly;gap:0;margin-left:-32px;margin-right:-32px}
+ .wg-page .wg-nav-chapters .wg-header-chapters-right{justify-content:space-evenly;gap:0;margin-left:-32px;margin-right:-32px}
+}
+@media(min-width:901px) and (max-width:1000px){
+ .wg-page .wg-nav-chapters .wg-header-chapters-left{margin-left:-14px;margin-right:-14px}
+ .wg-page .wg-nav-chapters .wg-header-chapters-right{margin-left:-14px;margin-right:-14px}
+}
+.wg-page .wg-nav-chapters .wg-header-chapters button span{font-size:16px}
+.wg-page .wg-nav-chapters .wg-header-chapters button small{font-size:14px}
+@media(min-width:701px) and (max-width:1100px){
+ .wg-page .wg-nav-chapters{height:100px;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);grid-template-rows:1fr 1fr}
+ .wg-page .wg-nav-chapters .wg-brand{grid-column:2;grid-row:1 / 3}
+ .wg-page .wg-nav-chapters .wg-nav-actions{grid-column:3;grid-row:1}
+ .wg-page .wg-nav-chapters .wg-header-chapters{grid-row:2;margin:0;gap:16px;justify-content:space-evenly}
+ .wg-page .wg-nav-chapters .wg-header-chapters-left{grid-column:1}
+ .wg-page .wg-nav-chapters .wg-header-chapters-right{grid-column:3}
+ .portfolio-menu-wild .staggered-menu-header{height:56px}
+}
+@media(max-width:700px){
+ .wg-page .wg-nav-chapters .wg-header-chapters button{flex-wrap:wrap;max-width:100%}
+ .wg-page .wg-nav-chapters .wg-header-chapters button small{flex-basis:100%}
+ .wg-page .wg-nav-chapters .wg-header-chapters-right button small{text-align:right}
+}
+.wg-page .wg-hero-bottom>span:first-child,
+.wg-page .wg-hero-bottom>span:last-child,
+.wg-page .wg-kicker{font-family:WildBlackChancery,Georgia,serif}
+.wg-page .wg-story-heading>.wg-kicker,
+.wg-page .wg-section-title .wg-kicker,
+.wg-page .wg-philosophy-heading>.wg-kicker,
+.wg-page .wg-closing>.wg-kicker{font-size:16px;line-height:1.6;overflow-wrap:anywhere}
+.wg-page .wg-product-copy>.wg-kicker,
+.wg-page .wg-detail-grid figcaption>small,
+.wg-page .wg-values article>small{font-size:12px;line-height:1.6}
+.wg-page .wg-hero-copy>button,
+.wg-page .wg-text-link,
+.wg-page .wg-color-grid b,
+.wg-page .wg-view-tabs button,
+.wg-page .wg-feature-strip button>span{font-family:WildLemonTea,Arial,'Microsoft YaHei',sans-serif}
+.wg-page .wg-values h3{font-family:WildLemonTea,WildDisplay,WildSong,serif}
+.wg-page .wg-hero-copy>button{font-size:14px}
+.wg-page .wg-color-grid{font-size:20px}
+.wg-page .wg-color-grid b{font-size:20px;line-height:1.5}
+.wg-page .wg-journal .wg-text-link{font-size:18px!important}
+.wg-page #wg-journal-title{font-size:38px;margin-top:7px;line-height:1.5}
+.wg-page .wg-journal-grid figcaption{font-size:16px;line-height:1.6}
+.wg-page .wg-journal-grid figcaption>small{font-size:15px;line-height:1.8}
+.wg-page .wg-view-tabs button{font-size:20px}
+.wg-page .wg-detail-grid figcaption>p{font-size:15px;line-height:1.8}
+@media(max-width:600px){
+ .wg-page #wg-journal-title{font-size:30px}
+ .wg-page .wg-color-grid button>span{gap:8px;flex-wrap:wrap}
+ .wg-page .wg-journal .wg-section-title{flex-wrap:wrap}
+}
+.wg-page .wg-philosophy-heading>p:last-child{font-size:17px;margin-top:1px;margin-bottom:8px}
+.wg-page .wg-philosophy-heading>span{font-family:WildLemonTea,WildSong,serif}
+.wg-page .wg-values p{font-size:14px;line-height:2.1}
+.wg-page .wg-feature-strip button>span{font-size:18px;line-height:1.6}
+.wg-page .wg-footer-columns nav,
+.wg-page .wg-footer-columns h3,
+.wg-page .wg-footer-columns nav button,
+.wg-page .wg-footer-contact>a,
+.wg-page .wg-closing>button,
+.wg-page .wg-lightbox>p{font-family:WildLemonTea,Arial,'Microsoft YaHei',sans-serif}
+.wg-page .wg-philosophy>.wg-text-link{font-size:15px!important;margin-top:25px}
+.wg-page .wg-product-copy>p{font-size:14px}
+.wg-page .wg-product-copy>h3{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+.wg-page .wg-product-copy>h3 small{display:inline-block;margin:0}
+.wg-page .wg-swatches{gap:16px;flex-wrap:wrap}
+.wg-page .wg-swatches button{width:42px;height:42px;display:grid;place-items:center;padding:4px}
+.wg-page .wg-swatches span{width:30px;height:30px}
+.wg-page .wg-spec{font-size:15px;flex-wrap:wrap;gap:14px 20px}
+.wg-page .wg-product-copy>.wg-text-link{font-size:16px!important;margin-left:auto;width:max-content;max-width:100%}
+.wg-page .wg-hero-top>span{font-family:WildBlackChancery,Georgia,serif}
+.wg-page .wg-footer-identity>span{font-size:14px;line-height:2}
+.wg-page .wg-footer-bottom{font-size:14px;line-height:1.8;flex-wrap:wrap;gap:16px}
+.wg-page .wg-footer-columns h3{font-size:18px;line-height:1.5}
+.wg-page .wg-footer-columns nav button{font-size:16px;line-height:1.7}
+.wg-page .wg-footer-contact>p{font-size:15px;line-height:1.8}
+.wg-page .wg-footer-contact>a{font-size:16px;line-height:1.7}
+.wg-page .wg-footer-contact>small{font-size:14px;overflow-wrap:anywhere}
+.wg-page .wg-footer-columns>*{min-width:0}
+.wg-page .wg-nav-chapters .wg-back{display:none}
+.wg-page .wg-nav-actions:not(.wg-preview-menu-actions)::after{content:"";display:block;width:36px;height:36px}
+.portfolio-menu-wild .staggered-menu-header{width:calc(100% - 80px);max-width:1380px;height:65px;padding:0 3%;box-sizing:border-box}
+.portfolio-menu-wild .sm-toggle{color:#cecece}
+.wg-page .wg-menu-toggle{width:36px;height:36px;padding:0;display:inline-flex;align-items:center;justify-content:center;background:none;border:0;color:#cecece;cursor:pointer}
+.wg-menu-toggle .sm-icon{width:23px;height:23px;flex-basis:23px;transition:transform .35s ease}
+.wg-menu-toggle .sm-icon-line-v{transform:translate(-50%,-50%) rotate(90deg)}
+.wg-menu-toggle[aria-expanded="true"] .sm-icon{transform:rotate(45deg)}
+.wg-preview-menu .staggered-menu-panel{opacity:1;transform:translateX(calc(100% + 32px));transition:transform .4s ease,visibility 0s .4s}
+.wg-preview-menu[data-open] .staggered-menu-panel{transform:translateX(0);transition:transform .4s ease}
+.wg-preview-menu .sm-panel-item{font-family:WildLemonTea,'Editorial Menu Kai',serif}
+@media(max-width:1000px){.portfolio-menu-wild .staggered-menu-header{width:calc(100% - 44px);padding:0 2.5%}}
+@media(max-width:900px){.portfolio-menu-wild .staggered-menu-header{height:56px}}
+@media(max-width:700px){.portfolio-menu-wild .staggered-menu-header{height:44px}}
+@media(max-width:600px){.portfolio-menu-wild .staggered-menu-header{top:8px;width:calc(100% - 24px)}}
+@media(prefers-reduced-motion:reduce){.wg-menu-toggle .sm-icon,.wg-preview-menu .staggered-menu-panel{transition:none}}
+.wg-page .wg-nav-chapters .wg-header-chapters button span,
+.wg-page .wg-nav-chapters .wg-back span{
+ font-family:WildLemonTea,Arial,'Microsoft YaHei',sans-serif;
+}
+@font-face{
+ font-family:WildLemonTea;
+ src:url('/Aurora/fonts/WildLemonTea.ttf') format('truetype');
+ font-style:normal;
+ font-weight:400;
+ font-display:swap;
+ unicode-range:U+3000-303F,U+3400-4DBF,U+4E00-9FFF,U+F900-FAFF,U+FF00-FFEF;
+}
+.wg-page .wg-hero-copy>p.wg-hero-poem,
+.wg-page .wg-subtitle,
+.wg-page .wg-story-note,
+.wg-page .wg-story-heading>p,
+.wg-page .wg-journal-grid figcaption,
+.wg-page .wg-philosophy-heading>p:last-child,
+.wg-page .wg-values p{
+ font-family:WildLemonTea,WildSong,serif;
+}
+.wg-page .wg-product-copy>p,
+.wg-page .wg-spec,
+.wg-page .wg-journal-grid figcaption>small,
+.wg-page .wg-detail-grid figcaption>p,
+.wg-page .wg-footer-identity>span,
+.wg-page .wg-footer-contact>p,
+.wg-page .wg-footer-bottom{
+ font-family:WildLemonTea,Arial,'Microsoft YaHei',sans-serif;
+}
+
+/* Restore standard cursors in Wild Growth image dialogs. */
+.wg-page dialog,.wg-page dialog *{cursor:auto!important}
+.wg-page dialog button,.wg-page dialog a{cursor:pointer!important}

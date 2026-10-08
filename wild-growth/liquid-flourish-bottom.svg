@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="wg-liquid-ornament" viewBox="0 0 697 251" aria-hidden="true">
+ <defs>
+  <mask id="wg-closing-bottom-pattern" maskUnits="userSpaceOnUse" x="0" y="0" width="697" height="251" style="mask-type:luminance">
+   <image href="/Aurora/wild-growth/closing-flourish-bottom-reference.png" width="697" height="251"/>
+  </mask>
+  <linearGradient id="wg-closing-bottom-flow" gradientUnits="userSpaceOnUse" x1="-400" y1="0" x2="400" y2="251" spreadMethod="reflect">
+   <stop stop-color="#0d0d0d"/><stop offset=".3" stop-color="#464646"/><stop offset=".44" stop-color="#e1e1e1"/><stop offset=".49" stop-color="#ffffff"/><stop offset=".55" stop-color="#787878"/><stop offset=".7" stop-color="#0f0f0f"/><stop offset="1" stop-color="#c1c1c1"/>
+   <animateTransform attributeName="gradientTransform" type="translate" values="-400 -398;400 398;-400 -398" dur="14s" repeatCount="indefinite"/>
+  </linearGradient>
+  <filter id="wg-closing-bottom-liquid" x="-8%" y="-8%" width="116%" height="116%">
+   <feTurbulence type="fractalNoise" baseFrequency=".008 .014" numOctaves="2" seed="12" result="noise">
+    <animate attributeName="baseFrequency" values=".008 .014;.012 .009;.008 .014" dur="18s" repeatCount="indefinite"/>
+   </feTurbulence>
+   <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+ </defs>
+ <g filter="url(#wg-closing-bottom-liquid)">
+  <g mask="url(#wg-closing-bottom-pattern)">
+   <rect width="697" height="251" fill="#aeb3b7"/>
+   <rect width="697" height="251" fill="url(#wg-closing-bottom-flow)" opacity=".65" style="mix-blend-mode:screen"/>
+  </g>
+ </g>
+</svg>

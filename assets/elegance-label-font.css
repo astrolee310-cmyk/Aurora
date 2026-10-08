@@ -1,0 +1,6 @@
+.el-page #el-inspiration .el-research-notes>span,
+.el-page #el-color .el-research-swatches>div>span{
+  font-family:EleganceParisRose,var(--el-display)!important;
+  font-weight:400;
+  font-synthesis:none;
+}

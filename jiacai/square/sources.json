@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ring",
+    "source": "ring-enhanced.jpg",
+    "originalSize": [
+      1536,
+      1408
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "earrings",
+    "source": "earrings-enhanced.jpg",
+    "originalSize": [
+      1856,
+      1376
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "necklace",
+    "source": "necklace-enhanced.jpg",
+    "originalSize": [
+      1632,
+      1376
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "sun",
+    "source": "sun-enhanced.jpg",
+    "originalSize": [
+      1760,
+      1472
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "flower-square-earrings",
+    "source": "flower-square-earrings-enhanced.jpg",
+    "originalSize": [
+      1632,
+      1536
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "flower-square-necklace",
+    "source": "flower-square-necklace-enhanced.jpg",
+    "originalSize": [
+      1632,
+      1536
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "sun-earrings",
+    "source": "sun-earrings-enhanced.jpg",
+    "originalSize": [
+      1664,
+      1376
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "flower-round-ring",
+    "source": "flower-round-ring.webp",
+    "originalSize": [
+      588,
+      490
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "flower-round-earrings",
+    "source": "flower-round-earrings.webp",
+    "originalSize": [
+      570,
+      492
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "spiral-set",
+    "source": "spiral-set-enhanced.jpg",
+    "originalSize": [
+      1920,
+      1280
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "sun-ring",
+    "source": "sun-ring.webp",
+    "originalSize": [
+      652,
+      488
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "sun-hair-square",
+    "source": "sun-hair-square.webp",
+    "originalSize": [
+      588,
+      554
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "sun-scrunchie",
+    "source": "sun-scrunchie.webp",
+    "originalSize": [
+      568,
+      552
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "spiral-scrunchie",
+    "source": "spiral-scrunchie.webp",
+    "originalSize": [
+      569,
+      551
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "spiral-necklace",
+    "source": "spiral-necklace.webp",
+    "originalSize": [
+      721,
+      549
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "spiral-bracelet",
+    "source": "spiral-bracelet.webp",
+    "originalSize": [
+      446,
+      272
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "flower-small-pendant",
+    "source": "flower-small-pendant.webp",
+    "originalSize": [
+      332,
+      720
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "spiral-ring",
+    "source": "spiral-ring.webp",
+    "originalSize": [
+      720,
+      505
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "id": "flower-disc-earrings",
+    "source": "flower-disc-earrings.webp",
+    "originalSize": [
+      732,
+      406
+    ],
+    "outputSize": [
+      1200,
+      1200
+    ]
+  }
+]

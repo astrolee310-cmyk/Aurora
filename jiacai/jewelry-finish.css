@@ -1,0 +1,28 @@
+.jewelry-page>.masthead{display:none;}
+.jewelry-page>.announcement{height:88px;padding-top:78px;}
+.jewelry-page .jiacai-navigation .re-nav nav{width:auto;}
+.jewelry-page .jiacai-navigation .re-nav nav button{font-size:16px;}
+.jewelry-page #pieces,.jewelry-page #collections{scroll-margin-top:96px;}
+.jewelry-page #products .product-photo{aspect-ratio:1;height:auto;}
+.jewelry-page #products .product-photo img{width:100%;height:100%;object-fit:contain;mix-blend-mode:normal;}
+.jewelry-page #products .product-card:hover img{transform:none;}
+@font-face{font-family:'Jiacai Paris Rose';src:url('/Aurora/fonts/EleganceParisRose.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap;}
+.jewelry-page #pieces>.section-heading h2,.jewelry-page #categories>.section-heading h2,.jewelry-page #collections>.section-heading h2{font-size:19px;line-height:1.6;}
+.jewelry-page .section-heading{flex-wrap:wrap;gap:12px 24px;}
+.jewelry-page .section-heading h2 small{font-size:12px;line-height:1.6;letter-spacing:0;}
+.jewelry-page #collections>.section-heading .fine-print{font-size:14px;line-height:1.7;letter-spacing:0;}
+.jewelry-page #journal-title{font-family:'Jiacai Qinghan',Song,serif;font-size:21px;line-height:1.8;letter-spacing:0;}
+.jewelry-page #journal-title span{font-family:Arial,sans-serif;font-size:11px;}
+.jewelry-page .hero-copy>.eyebrow{font-family:'Jiacai Paris Rose',serif;font-size:19px;line-height:1.5;letter-spacing:0;max-width:440px;}
+.jewelry-page .hero-copy>.serif{font-family:'Jiacai Paris Rose',serif;font-style:normal;font-size:29px;line-height:1.5;letter-spacing:0;}
+.jewelry-page .hero-foot>span:last-child{font-family:'Jiacai Qinghan',Song,serif;font-size:19px;line-height:1.5;letter-spacing:0;color:#fff;text-shadow:0 1px 5px #0008;}
+@media(max-width:600px){.jewelry-page .section-heading h2 small{display:block;margin:4px 0 0;}.jewelry-page .hero-copy>.eyebrow{max-width:100%;}.jewelry-page .hero-copy>.serif{font-size:25px;}.jewelry-page .hero-foot>span:last-child{font-size:17px;}.jewelry-page #journal-title span{display:block;margin:5px 0 0;}}
+.jewelry-page .jewelry-story{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.65fr) minmax(0,1fr);gap:36px;align-items:center;min-height:440px;padding:50px 6%;background:#f4f6f3;overflow:hidden;}
+.jewelry-story .story-center{min-width:0;text-align:center;}
+.jewelry-story .story-center h2{font-size:30px;line-height:1.6;}
+.jewelry-story .story-center p{font-size:12px;line-height:2.1;margin:18px 0 0;}
+.jewelry-story .story-necklace{display:block;width:100%;height:340px;object-fit:contain;}
+.jewelry-story .story-necklace-left{transform:rotate(-12deg);}
+.jewelry-story .story-necklace-right{transform:rotate(12deg);}
+@media(max-width:900px){.jewelry-page .jewelry-story{gap:16px;padding:45px 4%;}.jewelry-story .story-necklace{height:280px;}.jewelry-story .story-center h2{font-size:25px;}}
+@media(max-width:600px){.jewelry-page .jiacai-navigation .re-nav nav button{font-size:13px;}.jewelry-page .jewelry-story{grid-template-columns:1fr 1fr;gap:25px;padding:50px 7% 32px;}.jewelry-story .story-center{grid-column:1/-1;grid-row:1;}.jewelry-story .story-necklace{height:210px;}.jewelry-story .story-necklace-left{transform:rotate(-8deg);}.jewelry-story .story-necklace-right{transform:rotate(8deg);}.jewelry-story .story-center h2{font-size:27px;}}

@@ -1,0 +1,6 @@
+.el-page .el-closing{position:relative;isolation:isolate;overflow:hidden}
+.el-page .el-closing::before,
+.el-page .el-closing::after{content:"";position:absolute;top:50%;width:48%;max-width:680px;aspect-ratio:1659/1019;background:url('/Aurora/elegance/closing-pattern.webp') center/contain no-repeat;mix-blend-mode:multiply;opacity:.45;pointer-events:none;z-index:-1}
+.el-page .el-closing::before{left:0;transform:translate(-50%,-50%)}
+.el-page .el-closing::after{right:0;transform:translate(50%,-50%)}
+@media(max-width:600px){.el-page .el-closing::before,.el-page .el-closing::after{width:68%;opacity:.22}}

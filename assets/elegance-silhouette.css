@@ -1,0 +1,13 @@
+#el-silhouette{background:#f7f4ed;color:#493b30;margin:36px 0 0;padding:42px 4%;letter-spacing:0}
+#el-silhouette .el-shape-heading{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:12%;margin-bottom:30px}
+#el-silhouette .el-shape-heading span,#el-silhouette .el-shape-notes span{font:10px/1.6 Arial,sans-serif;letter-spacing:0}
+#el-silhouette h2{font:400 64px/1.05 Arial,sans-serif;letter-spacing:0;margin:22px 0 0}
+#el-silhouette h3{font:400 19px/1.7 var(--el-display,serif);letter-spacing:0;margin:14px 0 10px}
+#el-silhouette p{font-size:13px;line-height:2;color:#695747;margin:0}
+#el-silhouette figure{margin:0;width:100%}
+#el-silhouette figure a{display:block;background:white}
+#el-silhouette img{display:block;width:100%;height:auto;object-fit:contain}
+#el-silhouette figcaption{font:10px/1.8 Arial,sans-serif;color:#8b715a;margin-top:12px;letter-spacing:0}
+#el-silhouette a:focus-visible{outline:2px solid #9b5a32;outline-offset:5px}
+#el-silhouette .el-shape-notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5%;margin-top:36px;border-top:1px solid #79644e30;padding-top:28px}
+@media(max-width:700px){#el-silhouette{padding:30px 5%;margin-top:24px}#el-silhouette .el-shape-heading{grid-template-columns:1fr;gap:20px}#el-silhouette h2{font-size:48px}#el-silhouette h3{font-size:18px}#el-silhouette .el-shape-notes{grid-template-columns:1fr;gap:24px}}

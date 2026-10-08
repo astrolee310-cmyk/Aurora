@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'Yaoyu Display';
+  src: url('/Aurora/yaoyu/yaoyu-display.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.yy-page h1,
+.yy-page h1 > span,
+.yy-page h2,
+.yy-page h3,
+.yy-page h4,
+.yy-page h5,
+.yy-page .yy-fashion-masthead h2,
+.yy-page .yy-focus-heading h3,
+.yy-page .yy-fashion-copy h3,
+.yy-page .yy-fashion-masthead > b,
+.yy-page .yy-origin-swatch > span,
+.yy-page .yy-technical-copy h4,
+.yy-page .yy-archive-about .yy-archive-title,
+.yy-page .yy-archive-bottom > span,
+.yy-page .yy-nav .yy-brand,
+.yy-page .yy-nav nav button,
+.yy-page .yy-nav nav small,
+.yy-page .yy-nav .yy-nav-divider,
+.yy-page .yy-archive h3,
+.yy-page .yy-archive-about p,
+.yy-page .yy-archive-about > span,
+.yy-page .yy-archive-index button,
+.yy-page .yy-archive-bottom button,
+.yy-page .yy-archive-bottom small {
+  font-family: 'Yaoyu Display', Arial, 'Microsoft YaHei', sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  letter-spacing: 0;
+}
+
+.yy-page .yy-archive-bottom > span > small {
+  font-family: 'Yaoyu Display', Arial, 'Microsoft YaHei', sans-serif;
+}
+
+.yy-page .yy-hero h1 > span {
+  font-size: 61.7648px;
+  margin-top: 7px;
+}
+
+.yy-page .yy-hero-note p {
+  font-size: 21px;
+}
+
+.yy-page .yy-cover figcaption {
+  font-size: 9px;
+}
+
+.yy-page .yy-story-transition button > span:first-child {
+  font-size: 13px;
+}
+
+@media (max-width: 760px) {
+  .yy-page .yy-hero h1 > span {
+    font-size: 32px;
+  }
+
+  .yy-page .yy-hero-note p {
+    font-size: 18px;
+  }
+}
+
+.yy-page .yy-nav .yy-brand,
+.yy-page .yy-nav nav button,
+.yy-page .yy-nav nav small,
+.yy-page .yy-nav .yy-nav-divider,
+.yy-page .yy-archive h3,
+.yy-page .yy-archive-about p,
+.yy-page .yy-archive-about > span,
+.yy-page .yy-archive-index button,
+.yy-page .yy-archive-bottom > span,
+.yy-page .yy-archive-bottom button,
+.yy-page .yy-archive-bottom small {
+  font-family: 'Yaoyu Display', Arial, 'Microsoft YaHei', sans-serif;
+  font-synthesis: none;
+  letter-spacing: 0;
+}
+/* 2026-10-07 annotated typography and alignment pass. */
+.yy-nav .yy-nav-back {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 0;
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 36px;
+}
+.yy-nav .yy-nav-back::after {
+  content: '↗';
+  font-size: 15px;
+  line-height: 1;
+}
+.yy-origin-collage .yy-origin-intro {
+  font-family: 'Yaoyu Display', Arial, 'Microsoft YaHei', sans-serif;
+  font-synthesis: none;
+  letter-spacing: 0;
+}
+.yy-research-copy h3,
+.yy-shape-heading h3,
+.yy-shape-notes h3 {
+  font-size: 20px;
+}
+.yy-shape-heading > div {
+  text-align: right;
+}
+.yy-technical-header h3 {
+  font-size: 25px;
+}
+.yy-technical-copy {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.yy-technical-copy h5 {
+  font-size: 20px;
+}
+.yy-technical-copy ul {
+  text-align: center;
+}
+.yy-technical-drawings > p {
+  max-width: calc((100% - 14px) / 2);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 12px;
+}
+#yy-application > .yy-section-heading {
+  align-items: center;
+}
+#yy-application > .yy-section-heading > p {
+  align-self: center;
+  max-width: 520px;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 0;
+}
+.yy-archive-columns {
+  align-items: center;
+}
+.yy-archive-about,
+.yy-archive-index,
+.yy-archive-images {
+  align-self: center;
+}
+@media(max-width:760px) {
+  .yy-nav .yy-nav-back {
+    width: 34px;
+    height: 34px;
+    flex-basis: 34px;
+  }
+  .yy-research-copy h3,
+  .yy-shape-heading h3,
+  .yy-shape-notes h3 {
+    font-size: 18px;
+  }
+  .yy-shape-heading > div {
+    text-align: left;
+  }
+  .yy-technical-header h3 {
+    font-size: 20px;
+  }
+  .yy-technical-copy {
+    align-items: center;
+    text-align: center;
+  }
+  .yy-technical-copy h5 {
+    font-size: 18px;
+  }
+  .yy-technical-drawings > p {
+    max-width: 100%;
+    font-size: 10px;
+  }
+  #yy-application > .yy-section-heading > p {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}

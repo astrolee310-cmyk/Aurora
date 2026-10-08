@@ -1,0 +1,77 @@
+/* Keep the original collage intact in an edge-to-edge editorial spread. */
+.el-page #el-inspiration {
+  margin: 54px -8.139535% 36px;
+  padding: 0;
+  background: #fff;
+  color: #493b30;
+}
+.el-page #el-inspiration > header {
+  border: 0;
+  padding: 24px 7% 0;
+  letter-spacing: 0;
+}
+.el-page #el-inspiration > header > span { letter-spacing: 0; }
+.el-page #el-inspiration .el-research-grid {
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+  gap: 0;
+  margin: 20px 0 0;
+}
+.el-page #el-inspiration .el-research-art {
+  grid-column: 1;
+  grid-row: 1;
+}
+.el-page #el-inspiration .el-research-art a { background: #fff; }
+.el-page #el-inspiration .el-research-art img { transform: none; }
+.el-page #el-inspiration .el-research-art figcaption { display: none; }
+.el-page #el-inspiration .el-research-copy {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+  padding: 32px 12% 36px 4%;
+  text-align: center;
+}
+.el-page #el-inspiration .el-kicker {
+  justify-content: center;
+  font-size: 9px;
+  letter-spacing: 0;
+}
+.el-page #el-inspiration h2 {
+  font: 400 48px/1.45 var(--el-display);
+  letter-spacing: 0;
+  margin: 18px 0 24px;
+}
+.el-page #el-inspiration .el-research-copy > p:not(.el-kicker) {
+  max-width: 30em;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0;
+  text-wrap: pretty;
+}
+.el-page #el-inspiration .el-research-notes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  text-align: center;
+  align-items: center;
+  border: 0;
+  gap: 8px;
+  padding: 0;
+  margin-top: 24px;
+  font-size: 10px;
+  line-height: 1.8;
+  letter-spacing: 0;
+}
+@media (min-width: 701px) and (max-width: 1100px) {
+  .el-page #el-inspiration h2 { font-size: 36px; margin: 14px 0 18px; }
+  .el-page #el-inspiration .el-research-copy { padding: 24px 10% 28px 2%; }
+  .el-page #el-inspiration .el-research-copy > p:not(.el-kicker) { font-size: 12px; }
+  .el-page #el-inspiration .el-research-notes { margin-top: 18px; }
+}
+@media (max-width: 700px) {
+  .el-page #el-inspiration { margin: 35px -6.818182% 24px; }
+  .el-page #el-inspiration > header { padding: 22px 6% 0; flex-wrap: wrap; gap: 8px 16px; }
+  .el-page #el-inspiration .el-research-grid { grid-template-columns: minmax(0, 1fr); margin-top: 20px; }
+  .el-page #el-inspiration .el-research-copy { grid-column: 1; grid-row: 2; padding: 26px 8% 38px; }
+  .el-page #el-inspiration h2 { font-size: 36px; margin: 14px 0 20px; }
+  .el-page #el-inspiration h2 br { display: block; }
+}

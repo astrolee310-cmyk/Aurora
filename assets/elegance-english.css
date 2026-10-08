@@ -1,0 +1,75 @@
+@font-face{font-family:EleganceParisRose;src:url('/Aurora/fonts/EleganceParisRose.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0020-007E;}
+.el-page{font-family:EleganceParisRose,EleganceSong,'Songti SC',SimSun,serif !important;}
+.el-brand{font-family:EleganceParisRose,Georgia,serif !important;}
+.el-brand span{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-return span{font-family:EleganceParisRose,Georgia !important;}
+.el-kicker{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-seal{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-hero-en{font-family:EleganceParisRose,Georgia,serif !important;}
+.el-portrait figcaption span{font-family:EleganceParisRose,Arial !important;}
+.el-image-index{font-family:EleganceParisRose,Arial !important;}
+.el-hero-foot{font-family:EleganceParisRose,Arial !important;}
+.el-hero-foot span:first-child{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-caption{font-family:EleganceParisRose,Arial !important;}
+.el-caption span:last-child{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-origin-art>span{font-family:EleganceParisRose,Arial !important;}
+.el-lineup-heading>span,.el-lineup-footer{font-family:EleganceParisRose,Arial !important;}
+.el-lineup-footer>span:first-child{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-look-tabs button{font-family:EleganceParisRose,Georgia !important;}
+.el-look-tabs small{font-family:EleganceParisRose,EleganceSong !important;}
+.el-look-description>span{font-family:EleganceParisRose,Arial !important;}
+.el-look-photo figcaption{font-family:EleganceParisRose,Arial !important;}
+.el-look-photo figcaption span:last-child{font-family:EleganceParisRose,EleganceSong !important;}
+.el-look-side>span{font-family:EleganceParisRose,Arial !important;}
+.el-process-tabs button>span{font-family:EleganceParisRose,Georgia !important;}
+.el-process-tabs small{font-family:EleganceParisRose,Arial !important;}
+.el-step-number{font-family:EleganceParisRose,Georgia !important;}
+.el-finale-title>span{font-family:EleganceParisRose,Arial !important;}
+.el-footer-mark small{font-family:EleganceParisRose,Arial !important;}
+.el-lineup-footer a{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-hero h1,.el-look-copy h2,.el-finale-title h2,.el-footer-mark,.el-origin-copy h2,.el-lineup-heading p,.el-craft-title h2{font-family:EleganceParisRose,var(--el-display) !important;}
+.el-footer-mark small{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-carousel-portrait figcaption .el-caption-cn{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-settings{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-settings-note{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-settings-actions button{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-settings-status{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-campaign-ribbon span{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-campaign-title>p{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-campaign-title h1{font-family:EleganceParisRose,var(--el-display) !important;}
+.el-campaign-title>span{font-family:EleganceParisRose,Georgia,serif !important;}
+.el-campaign-title button span{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-visual-categories button>span,.el-visual-stories button>span{font-family:EleganceParisRose,var(--el-display) !important;}
+.el-visual-categories small,.el-visual-stories small{font-family:EleganceParisRose,Georgia,serif !important;}
+.el-story-ribbon>span:last-child{font-family:EleganceParisRose,Georgia,serif !important;}
+.el-design-label{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-design-label span{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-design-spec header small{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-design-flats figcaption small{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-design-materials header small{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-design-switch button{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-design-switch button>span{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-toile-intro>p:first-child{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-toile-intro h3{font-family:EleganceParisRose,EleganceSong,serif !important;}
+.el-toile-caption span{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-toile-board figcaption{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-toile-edge{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-page .el-nav nav button small{font-family:EleganceParisRose,Georgia,serif !important;}
+.el-campaign-ribbon,
+.el-page .el-campaign-title button,
+.el-campaign-note,
+.el-story-ribbon>span:first-child,
+.el-caption>span:last-child,
+.el-look-side>p{font-family:EleganceParisRose,var(--el-display) !important;}
+.el-wall-heading>div>p{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-wall-tile figcaption>span>small{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-wall-note>span{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-wall-lightbox figcaption small{font-family:EleganceParisRose,Arial !important;}
+.el-page #el-inspiration h2{font-family:EleganceParisRose,var(--el-display) !important;}
+.el-research-section>header>span:first-child{font-family:EleganceParisRose,Arial,sans-serif !important;}
+.el-research-copy h2{font-family:EleganceParisRose,var(--el-display) !important;}
+.el-research-swatches small{font-family:EleganceParisRose,Arial,sans-serif !important;}
+#el-silhouette .el-shape-heading span,#el-silhouette .el-shape-notes span{font-family:EleganceParisRose,Arial,sans-serif !important;}
+#el-silhouette h2{font-family:EleganceParisRose,Arial,sans-serif !important;}
+#el-silhouette h3{font-family:EleganceParisRose,var(--el-display,serif) !important;}
+#el-silhouette figcaption{font-family:EleganceParisRose,Arial,sans-serif !important;}
