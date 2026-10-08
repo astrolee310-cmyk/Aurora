@@ -104,3 +104,11 @@
  .re-page .re-depth-window .depth-carousel{min-height:0}
  .re-page .depth-carousel__arrow{min-width:36px;min-height:44px}
 }
+
+@media(max-width:900px),(pointer:coarse){
+ .experience:has(.portfolio-about)>.hidden-editorial,.experience:has(.portfolio-about)>.experience-header,.experience:has(.portfolio-about)>.experience-controls,.experience:has(.portfolio-about)>.experience-footer,.experience:has(.portfolio-about)>.space-title{display:none}
+ .portfolio-about .pa-header{flex-wrap:wrap;gap:18px;padding-right:64px}
+ .device-series-nav{flex:0 0 100%;display:flex;flex-wrap:wrap;gap:4px 14px;min-width:0}
+ .device-series-nav a{display:inline-flex;align-items:center;min-height:44px;font-size:12px;line-height:1.4;text-decoration:none;color:inherit;letter-spacing:.02em}
+ .device-series-nav a[aria-current]{border-bottom:1px solid currentColor}
+}
