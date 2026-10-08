@@ -188,3 +188,40 @@
  .wg-page .wg-nav-actions .wg-motion-toggle{display:none}
 }
 @media(max-width:900px){.yy-page .yy-nav .yy-author{grid-area:1/1!important;justify-self:start;font-size:13px!important;white-space:nowrap}.yy-page .yy-nav .yy-brand{grid-area:1/2!important;justify-self:center;font-size:20px!important;line-height:1.2!important;white-space:nowrap;margin:0!important}.yy-page .yy-nav .yy-menu-space{grid-area:1/3!important;justify-self:end}}
+
+/* Center mobile collection blocks and the two supplied series footers. */
+@media(max-width:900px){
+ .wg-page :is(.wg-collection,.wg-details,.wg-journal,.wg-story,.wg-philosophy){width:100%;box-sizing:border-box;padding-left:20px!important;padding-right:20px!important;margin-left:auto;margin-right:auto}
+ .wg-page :is(.wg-collection,.wg-details,.wg-journal) .wg-section-title{display:block;text-align:center;width:100%;margin-left:auto;margin-right:auto}
+ .wg-page :is(.wg-collection,.wg-details,.wg-journal) .wg-section-title>.wg-star{display:none}
+ .wg-page .wg-section-title>div{width:100%;margin:0 auto}
+ .wg-page .wg-section-title :is(h2,p,.wg-kicker){text-align:center;max-width:100%;margin-left:auto;margin-right:auto}
+ .wg-page .wg-section-title .wg-kicker{font-size:17px;line-height:1.7;letter-spacing:.03em;overflow-wrap:normal}
+ .wg-page .wg-subtitle{font-size:14px;line-height:1.9;letter-spacing:.04em}
+ .wg-page .wg-product-feature{display:flex;flex-direction:column;align-items:center;gap:20px;width:100%;margin:0 auto}
+ .wg-page .wg-product-feature>.wg-image{width:100%;max-width:100%;margin:0 auto;transform:none}
+ .wg-page .wg-product-copy{width:100%;text-align:center;margin:0 auto}
+ .wg-page .wg-product-copy>h3{justify-content:center;line-height:1.5}
+ .wg-page .wg-product-copy>.wg-text-link{margin-left:auto;margin-right:auto}
+ .wg-page .wg-swatches,.wg-page .wg-spec{justify-content:center;gap:12px;flex-wrap:wrap}
+ .wg-page .wg-swatches button{width:36px;height:36px}
+ .wg-page .wg-views{width:100%;max-width:100%;margin-left:auto;margin-right:auto;grid-template-columns:minmax(0,1fr);box-sizing:border-box}
+ .wg-page .wg-view-tabs{justify-content:center;text-align:center}
+ .wg-page .wg-detail-grid{width:100%;margin:0 auto;text-align:center}
+ .wg-page .wg-detail-grid figcaption{width:100%;text-align:center}
+ .wg-page .wg-journal-grid{width:100%;max-width:100%;padding:0!important;margin:0 auto;grid-template-columns:repeat(3,minmax(0,1fr))}
+ .wg-page .wg-journal-grid figure{min-width:0;margin:0;text-align:center}
+ .wg-page .wg-journal-grid figcaption{align-items:center;text-align:center;font-size:12px;line-height:1.7}
+ .wg-page .wg-journal .wg-text-link{width:max-content;max-width:100%;margin-left:auto;margin-right:auto;justify-content:center}
+ .mfe .mfe-footer,.mfe .mfe-footer-layout,.mfe .mfe-footer-columns>div{text-align:center}
+ .mfe .mfe-footer-identity{display:flex;flex-direction:column;align-items:center}
+ .mfe .mfe-footer-columns nav{align-items:center}
+ .mfe .mfe-footer-contact a{justify-content:center}
+ .mfe .mfe-footer-bottom{justify-content:center;text-align:center;flex-wrap:wrap}
+ body .jiacai-footer,body .jiacai-footer .footer-top>div{text-align:center}
+ body .jiacai-footer .footer-top{justify-items:center}
+ body .jiacai-footer .footer-top>div{width:100%}
+ body .jiacai-footer .footer-bottom{justify-content:center;align-items:center;text-align:center}
+ body .jiacai-footer .footer-bottom span:last-child{text-align:center}
+}
+@media(max-width:900px){.mfe .mfe-footer :is(p,h2,h3,a,button,.mfe-footer-identity,.mfe-footer-contact),body .jiacai-footer :is(p,h3,a,span){text-align:center!important}.mfe .mfe-footer nav{align-items:center!important}.mfe .mfe-footer-contact a{justify-content:center!important}}
